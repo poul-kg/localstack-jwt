@@ -1,0 +1,17 @@
+{
+    "PoolName": "test",
+    "Policies": {
+        "PasswordPolicy": {
+            "MinimumLength": 6,
+            "RequireUppercase": false,
+            "RequireLowercase": false,
+            "RequireNumbers": false,
+            "RequireSymbols": false,
+            "TemporaryPasswordValidityDays": 5
+        }
+    },
+    "AdminCreateUserConfig": {
+        "AllowAdminCreateUserOnly": false,
+        "UnusedAccountValidityDays": 5
+    }
+}
